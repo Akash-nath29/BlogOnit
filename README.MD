@@ -1,10 +1,10 @@
 # BlogOnit - A Colorful Blogging Application with Django
 
-![BlogOnit Banner](https://github.com/Akash-nath29/BlogOnit/demoImages/banner.png)
+![BlogOnit Banner](https://github.com/Akash-nath29/BlogOnit/tree/main/demoImages/banner.png)
 
 Welcome to **BlogOnit**, a feature-rich blogging application built with Django! This project aims to provide a dynamic platform for bloggers to share their thoughts, experiences, and ideas with the world. Whether you're a seasoned blogger or just starting your writing journey, BlogOnit offers an intuitive and user-friendly interface to manage and publish your blog posts with ease.
 
-![Demo Post](https://github.com/Akash-nath29/BlogOnit/demoImages/demoPost.png)
+![Demo Post](https://github.com/Akash-nath29/BlogOnit/tree/main/demoImages/demoPost.png)
 
 ## Project Status
 
@@ -17,15 +17,15 @@ Please note that BlogOnit is still a work in progress. We are actively developin
 BlogOnit comes packed with a plethora of **exciting features** that make it a comprehensive blogging platform. Some of the key features include:
 
 - **User Authentication**: Users can sign up, log in, and manage their accounts securely.
-![User Authentication](https://github.com/Akash-nath29/BlogOnit/demoImages/userAuth.png)
+![User Authentication](https://github.com/Akash-nath29/BlogOnit/tree/main/demoImages/userAuth.png)
 - **Create and Edit Posts**: Bloggers can easily create new posts and edit their existing ones.
-![Post Writing](https://github.com/Akash-nath29/BlogOnit/demoImages/writePost.png)
+![Post Writing](https://github.com/Akash-nath29/BlogOnit/tree/main/demoImages/writePost.png)
 - **Categories and Tags**: Organize posts by adding categories and tags for better navigation.
 - **Rich Text Editor**: Compose your posts using a powerful and user-friendly rich text editor.
 - **User Profiles**: Personalize your profile with a bio, avatar, and social media links.
-![User Profile](https://github.com/Akash-nath29/BlogOnit/demoImages/userProfile.png)
+![User Profile](https://github.com/Akash-nath29/BlogOnit/tree/main/demoImages/userProfile.png)
 - **Responsive Design**: Enjoy a seamless experience across various devices and screen sizes.
-![Responsive Design](https://github.com/Akash-nath29/BlogOnit/demoImages/responsiveDesign.png)
+![Responsive Design](https://github.com/Akash-nath29/BlogOnit/tree/main/demoImages/responsiveDesign.png)
 
 ## 🚀 Installation
 
