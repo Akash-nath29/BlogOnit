@@ -1,31 +1,28 @@
 # BlogOnit - A Colorful Blogging Application with Django
 
-![BlogOnit Banner](https://github.com/Akash-nath29/BlogOnit/blob/main/demoImages/banner.png)
+[![GitHub issues](https://img.shields.io/github/issues/Akash-nath29/BlogOnit)](https://github.com/Akash-nath29/BlogOnit/issues)
+[![GitHub forks](https://img.shields.io/github/forks/Akash-nath29/BlogOnit)](https://github.com/Akash-nath29/BlogOnit/network)
+[![GitHub stars](https://img.shields.io/github/stars/Akash-nath29/BlogOnit)](https://github.com/Akash-nath29/BlogOnit/stargazers)
+[![GitHub license](https://img.shields.io/github/license/Akash-nath29/BlogOnit)](https://github.com/Akash-nath29/BlogOnit/blob/main/LICENSE)
 
 Welcome to **BlogOnit**, a feature-rich blogging application built with Django! This project aims to provide a dynamic platform for bloggers to share their thoughts, experiences, and ideas with the world. Whether you're a seasoned blogger or just starting your writing journey, BlogOnit offers an intuitive and user-friendly interface to manage and publish your blog posts with ease.
 
-![Demo Post](https://github.com/Akash-nath29/BlogOnit/blob/main/demoImages/demoPost.png)
-
-## Project Status
+## ⚠️ Project Status
 
 🚧 **Under Development** 🚧
 
-Please note that BlogOnit is still a work in progress. We are actively developing and refining the application to offer a seamless experience to our users. As a result, you may encounter some bugs or incomplete features. However, we encourage you to **contribute** to the project by reporting issues, suggesting improvements, or even submitting pull requests.
+Please note that BlogOnit is still a work in progress. We are actively developing and refining the application to offer a seamless experience to our users. As a result, you may encounter some bugs or incomplete features. However, we encourage you to **contribute** to the project by reporting issues, suggesting improvements, or even submitting pull requests. Let's make BlogOnit even better together!
 
 ## 🌟 Features
 
 BlogOnit comes packed with a plethora of **exciting features** that make it a comprehensive blogging platform. Some of the key features include:
 
 - **User Authentication**: Users can sign up, log in, and manage their accounts securely.
-![User Authentication](https://github.com/Akash-nath29/BlogOnit/blob/main/demoImages/userAuth.png)
 - **Create and Edit Posts**: Bloggers can easily create new posts and edit their existing ones.
-![Post Writing](https://github.com/Akash-nath29/BlogOnit/blob/main/demoImages/writePost.png)
 - **Categories and Tags**: Organize posts by adding categories and tags for better navigation.
 - **Rich Text Editor**: Compose your posts using a powerful and user-friendly rich text editor.
 - **User Profiles**: Personalize your profile with a bio, avatar, and social media links.
-![User Profile](https://github.com/Akash-nath29/BlogOnit/blob/main/demoImages/userProfile.png)
 - **Responsive Design**: Enjoy a seamless experience across various devices and screen sizes.
-![Responsive Design](https://github.com/Akash-nath29/BlogOnit/blob/main/demoImages/responsiveDesign.png)
 
 ## 🚀 Installation
 
@@ -91,7 +88,7 @@ Once you have set up BlogOnit, you can start using it to create and manage your 
 4. Click on the "**Write a Post**" button to create a new blog post.
 5. Fill in the details, add content using the **rich text editor**, and choose categories and tags for your post.
 6. Click on the "**Post**" button to make your post live.
-7. Explore the **navigation menu** to edit your profile, available categories, and categories.
+7. Explore the **navigation menu** to edit your profile, published posts, and categories.
 8. Engage with your readers through **Likes** on your posts.
 9. Use the **Django admin panel** at `http://127.0.0.1:8000/admin/` to manage users, posts, comments, and other site content.
 
