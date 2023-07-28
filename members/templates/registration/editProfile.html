@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+{% block title %}
+Update Profile
+{% endblock %}
+{% block content %}
+<h1>Update</h1>
+<br>
+{{user.userprofile.bio}}
+<div class="form-group">
+    <br>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="btn btn-primary">Update</button>
+    </form>
+</div>
+{% endblock %}

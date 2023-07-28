@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+{% block title %}
+Edit Post
+{% endblock %}
+{% block content %}
+{% if user.is_authenticated %}
+{% if user.id == post.author.id %}
+<h1>Delete {{ post.title }} ?</h1>
+<div class="form-group">
+    <form method="post">
+        {% csrf_token %}
+        <button class="btn btn-danger mt-4">Yes, Delete</button>
+    </form>
+    <a href="{% url 'PostView' post.pk %}" class="btn btn-success my-4">No, Go Back</a>
+</div>
+{% else %}
+<h1>You're not allowed here</h1>
+<a href="{% url 'PostView' post.pk %}" class="btn btn-primary my-4">Back</a>
+{% endif %}
+{% else %}
+<h1>LogIn first</h1>
+<a href="{% url 'PostView' post.pk %}" class="btn btn-primary my-4">Back</a>
+{% endif %}
+{% endblock %}

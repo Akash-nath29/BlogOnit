@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="container">
+    <h1>Blogonit</h1>
+    {% for post in object_list %}
+    <li style="list-style: none; background-color: rgb(233, 245, 255); margin-bottom: 5vh; padding: 50px; border-radius: 20px;">
+        <a href="{% url 'PostView' post.pk %}" style="font-size: 30px; color: black;">{{post.title}}</a> ----
+        @{{post.author}}
+        <br />
+        <a href="{% url 'Category' post.category %}" class="badge text-bg-info my-2">#{{post.category}}</a>
+        <br />
+        {{post.snippet}}
+        {{post.body|slice:":50"|safe}}... <br> <br>
+        {% if user.is_authenticated %}
+        {% if user.id == post.author.id %}
+        <a href="{% url 'UpdatePost' post.pk%}" class="btn btn-secondary my-3">Edit</a>
+        <a href="{% url 'DeletePost' post.pk%}" class="btn btn-danger my-3">Delete</a>
+        {% endif %}
+        {% endif %}
+    </li>
+    {% endfor %}
+</div>
+
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+{% block title %}
+Edit Post
+{% endblock %}
+{% block content %}
+{% if user.is_authenticated %}
+{% if user.id == post.author.id %}
+<h1>Update Post...</h1>
+<div class="form-group">
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        {{ form.media }}
+        <button class="btn btn-primary mt-4">Update</button>
+    </form>
+    <a href="{% url 'PostView' post.pk %}" class="btn btn-primary my-4">Back</a>
+</div>
+{% else %}
+<h1>You can't edit this post cause you're not the author of this psot.</h1>
+<a href="{% url 'PostView' post.pk %}" class="btn btn-primary my-4">Back</a>
+{% endif %}
+{% else %}
+<h1>Login First</h1>
+<a href="{% url 'PostView' post.pk %}" class="btn btn-primary my-4">Back</a>
+{% endif %}
+{% endblock %}

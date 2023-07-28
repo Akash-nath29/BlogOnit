@@ -1,0 +1,28 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="container">
+    {% if category_post %}
+    <h1>{{cats}}</h1>
+    <ul>
+        {% for post in category_post %}
+        <li style="list-style: none; background-color: rgb(233, 245, 255); margin-bottom: 5vh; padding: 50px; border-radius: 20px;">
+            <a href="{% url 'PostView' post.pk %}" style="font-size: 30px; color: black;">{{post.title}}</a> ----
+            @{{post.author}}
+            <br />
+            {{post.body|safe|slice:":50"}}... <br>
+            {% if user.is_authenticated %}
+            {% if user.id == post.author.id %}
+            <a href="{% url 'UpdatePost' post.pk%}" class="btn btn-secondary my-3">Edit</a>
+            <a href="{% url 'DeletePost' post.pk%}" class="btn btn-danger my-3">Delete</a>
+            {% endif %}
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <h3>No post to show</h3>
+    {% endif %}
+    <a href="{% url 'Home' %}" class="btn btn-primary my-4">Back</a>
+</div>
+
+{% endblock %}
