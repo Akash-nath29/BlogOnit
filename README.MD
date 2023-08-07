@@ -23,6 +23,7 @@ BlogOnit comes packed with a plethora of **exciting features** that make it a co
 - **Create and Edit Posts**: Bloggers can easily create new posts and edit their existing ones.
 - **Categories and Tags**: Organize posts by adding categories and tags for better navigation.
 - **Rich Text Editor**: Compose your posts using a powerful and user-friendly rich text editor.
+![Rich Text Editor](https://github.com/Akash-nath29/BlogOnit/blob/main/demoImages/richTextEditor.png?raw=true)
 - **User Profiles**: Personalize your profile with a bio, avatar, and social media links.
 - **Responsive Design**: Enjoy a seamless experience across various devices and screen sizes.
 
