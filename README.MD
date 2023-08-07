@@ -7,6 +7,8 @@
 
 Welcome to **BlogOnit**, a feature-rich blogging application built with Django! This project aims to provide a dynamic platform for bloggers to share their thoughts, experiences, and ideas with the world. Whether you're a seasoned blogger or just starting your writing journey, BlogOnit offers an intuitive and user-friendly interface to manage and publish your blog posts with ease.
 
+![BlogOnit](https://github.com/Akash-nath29/BlogOnit/blob/main/demoImages/homePage.png?raw=true)
+
 ## ⚠️ Project Status
 
 🚧 **Under Development** 🚧
